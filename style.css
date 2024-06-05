@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    background-color: #9472bf;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.btn-first{
+    padding: 8px 20px;
+    border: none;
+    background-color: #ebecd2;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-second{
+    padding: 8px 30px;
+    border: none;
+    background-color: #ebecd2;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 4px;
+    color: #ebecd2;
+}
+.guess{
+    width: 9rem;
+    height: 5rem;
+    background-color: #ebecd2;
+    font-size: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.row-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    width: 60%;
+    padding: 30px;
+    border-radius: 20px;
+}
+input{
+    width: 9rem;
+    height: 5rem;
+    background-color: #ebecd2;
+    font-size: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    float: right;
+    letter-spacing: 5px;
+}
+.allign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#message{
+    font-size: 23px;
+}
+#lost-image{
+    margin-left: 100px;
+}
+#lost-image-2{
+    margin-left: 100px;
+}
+input::-webkit-inner-spin-button,::-webkit-outer-spin-button{
+    appearance: none;
+}
+@media(max-width:460px){
+    h1,h2{
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    input{
+        width: 6rem;
+        font-size: 15px;
+        height: 4rem;
+    }
+    #computer{
+        width: 6rem;
+        font-size: 18px;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .allign{
+        flex-direction: column;
+    }
+    b{
+        font-size: 15px;
+        text-align: center;
+    }
+    #message,#sore,#high{
+        font-size: 15px;
+        text-align: center;
+    }
+    #again{
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    .row-2{
+        width: 350px;
+        gap: 20px;
+    }
+    #check-btn{
+        font-size: 15px;
+        padding:7px 20px ;
+    }
+    .center{
+        flex-direction: column;
+        gap: 0;
+    }
+    #gif-image{
+        height: 250px;
+        margin-top: -100px;
+    }
+}
